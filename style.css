@@ -1,0 +1,90 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 5% 0;
+}
+
+h1,
+h2 {
+	margin: 0px;
+	text-align: center;
+	color: rgb(32, 35, 41);
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 93px;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 60px;
+}
+
+#card-personagem h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+}
+
+#container-personagens #card-personagem {
+	padding: 20px 20px;
+	box-sizing: border-box;
+	border-radius: 24px;
+	background-color: #3c3e44;
+}
+
+#container-personagens {
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+	justify-content: space-around;
+	width: 100%;
+	background: rgb(36, 40, 47);
+}
+
+#card-personagem {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	max-width: 290px;
+	margin: 30px 30px;
+}
+
+#card-personagem > h2 {
+	color: beige;
+}
+
+#card-personagem > h2:hover {
+	color: #d49010;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 300px;
+	background: rgb(32, 35, 41);
+	color: rgb(158, 158, 158);
+}
+
+p {
+	font-size: 21px;
+	margin: 10px 0px;
+}
